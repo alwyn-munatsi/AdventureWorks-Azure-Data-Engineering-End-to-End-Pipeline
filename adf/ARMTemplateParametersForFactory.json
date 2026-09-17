@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "altech-df"
+        },
+        "AzureDataLakeStorageLinkedService_accountKey": {
+            "value": ""
+        },
+        "LS_AzureDatabricks_accessToken": {
+            "value": ""
+        },
+        "AzureDataLakeStorageLinkedService_properties_typeProperties_url": {
+            "value": "https://altechsg.dfs.core.windows.net/"
+        },
+        "AzureKeyVaultAlwyn_properties_typeProperties_baseUrl": {
+            "value": "https://altech-keyvault.vault.azure.net/"
+        },
+        "SqlServerOnPremLinkedService_properties_typeProperties_server": {
+            "value": "Alwyn-PC\\SQLEXPRESS01"
+        },
+        "SqlServerOnPremLinkedService_properties_typeProperties_database": {
+            "value": "AdventureWorksLT2025"
+        },
+        "SqlServerOnPremLinkedService_properties_typeProperties_userName": {
+            "value": "alwyn"
+        }
+    }
+}
